@@ -1,7 +1,7 @@
 {
-  "name": "vue-helper",
+  "name": "vue-helper-cn",
   "version": "2.5.0",
-  "description": "vue enhance, extension for Element-UI, Element Plus, Ant Desigin Vue",
+  "description": "支持中文,vue enhance, extension for Element-UI, Element Plus, Ant Desigin Vue",
   "keywords": [
     "vue-helper",
     "element-ui",
@@ -11,9 +11,9 @@
     "vscode"
   ],
   "icon": "asset/logo.png",
-  "publisher": "shenjiaolong",
-  "author": "shenjiaolong",
-  "homepage": "http://vue-helper.80fight.cn/",
+  "publisher": "sweetwisdom",
+  "author": "sweetwisdom",
+  "homepage": "https://github.com/sweetwisdom",
   "license": "MIT",
   "main": "dist/client",
   "l10n": "./l10n",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jiaolong1021/vue-helper.git"
+    "url": "https://github.com/sweetwisdom/vue-helper"
   },
   "gitHead": "b1cc40df44b9cd73ba96d8b7f0369cc3ce690c45",
   "scripts": {
@@ -84,6 +84,16 @@
         "vue-helper.use-vue-snippets": {
           "type": "boolean",
           "default": true
+        },
+        "vue-helper.elementDocUrl": {
+          "type": "string",
+          "default": "https://element.eleme.cn",
+          "description": "elementUi 文档地址 "
+        },
+        "vue-helper.elementPlusDocUrl": {
+          "type": "string",
+          "default": "https://cn.element-plus.org",
+          "description": "elementPlusDocUrl文档地址 "
         }
       }
     }

@@ -1,6 +1,10 @@
 import { l10n } from "vscode"
 
-const docUrl = 'https://element-plus.org'
+import { workspace } from 'vscode'
+
+const docUrl = workspace.getConfiguration().get('vue-helper.elementPlusDocUrl') || 'https://element-plus.org'
+
+
 
 export default () => {
 return {

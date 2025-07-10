@@ -5,3 +5,4 @@ tsconfig.build.json
 tsconfig.build.tsbuildinfo
 meta.json
 stats.html
+*.vsix
